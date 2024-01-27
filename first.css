@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.sec{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(image/main.jpg);
+  background-size:cover;
+  background-position: center;
+}
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.di1{
+	flex:  1;
+	text-align: right;
+}
+.di1 ul li{
+ list-style: none;
+ display: inline-block;
+ padding: 8px  12px;
+ position: relative;
+
+}
+
+.di1 ul li a{
+	text-decoration: none;
+      color: whitesmoke;
+      padding: 7px 30px;
+      border: 1px black;
+      transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+	background-color: beige;
+	color: black;
+}
+
+.di2{
+ width: 90%;
+ color: whitesmoke;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ text-align: center;
+}
+.di2 a{
+	text-decoration: none;
+      color: whitesmoke;
+      padding: 7px 30px;
+      border: 1px black;
+      transition: 0.6s ease;
+}
+a:hover{
+	background-color: beige;
+	color: black;
+}
+
+
+.sec1{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h2{
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.sec1 p{
+	color: black ;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+	text-align: left;
+}
+
+
+
+
+.sec2 h2 p{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+  .pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 25%;
+    max-height:15%;
+}
+ 
+hr{
+	border: 5px solid beige;
+}
+
+.log{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;	
+}
+
+.log h3{
+	font-size: 1.3rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+
+.log p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+.icon{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3 rem 0 ;
+}
+
+.icon li{
+	margin: 0 10px;
+}
+
+.icon a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
